@@ -98,7 +98,7 @@ if(isset($_POST['updateKategoriBtn']) == true){
             <tr>
             <th scope="row"><?= ++$i ?></th>
             <td>
-                <img width="50px" src="img_barang/<?= $d['img_barang'] ?>" alt="">
+                <img width="50px" src="<?= $d['img_barang'] ?>" alt="">
             </td>
             <td><?= $d['kd_barang'] ?></td>
             <td><?= $d['jenis'] ?></td>
