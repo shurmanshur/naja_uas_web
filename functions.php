@@ -49,7 +49,7 @@ function addBarang($post)
     $qty_barang = $post['qty_barang'];
     $id_kategori = $post['id_kategori'];
     $hrg_barang = $post['hrg_barang'];
-    $img_barang = upload('img_barang','img_barang/');
+    $img_barang = upload('img_barang','');
     if (!$img_barang) {
         echo "<script>alert('Data upload gagal !')</script>";
         return false;
